@@ -8285,3 +8285,6 @@ Component2: Component[
 
 !ENTRY org.eclipse.ui 4 4 2017-03-29 17:31:03.124
 !MESSAGE Conflicting handlers for org.eclipse.linuxtools.tmf.ui.command.managecustomparsers: {org.eclipse.tracecompass.internal.tmf.ui.commands.ManageCustomParsersCommandHandler} vs {org.eclipse.linuxtools.tmf.ui.commands.ManageCustomParsersCommandHandler}
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-03-29 17:37:14.540
+!MESSAGE Indexed 'PA2' (0 sources, 0 headers) in 0.008 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

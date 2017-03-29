@@ -1,3 +1,3 @@
-GitRepositoriesView.GitDirectories=/home/nrobles/acceptance_testing/.git\:
-GitRepositoriesView.GitDirectories.relative=/home/nrobles/acceptance_testing/.git\:
+GitRepositoriesView.GitDirectories=/home/nrobles/acceptance_testing/.git\:/home/nrobles/.git\:
+GitRepositoriesView.GitDirectories.relative=/home/nrobles/acceptance_testing/.git\:/home/nrobles/.git\:
 eclipse.preferences.version=1
