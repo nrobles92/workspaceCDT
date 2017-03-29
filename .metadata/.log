@@ -8288,3 +8288,18 @@ Component2: Component[
 
 !ENTRY org.eclipse.cdt.core 1 0 2017-03-29 17:37:14.540
 !MESSAGE Indexed 'PA2' (0 sources, 0 headers) in 0.008 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.ui 4 4 2017-03-29 17:49:51.141
+!MESSAGE Conflicting handlers for org.eclipse.linuxtools.tmf.ui.command.managecustomparsers: {org.eclipse.tracecompass.internal.tmf.ui.commands.ManageCustomParsersCommandHandler@5cee5c4f} vs {org.eclipse.linuxtools.tmf.ui.commands.ManageCustomParsersCommandHandler}
+
+!ENTRY org.eclipse.cdt.ui 2 0 2017-03-29 18:04:25.499
+!MESSAGE The 'org.eclipse.cdt.mylyn.ui.InclusionProposalComputer' proposal computer from the 'org.eclipse.cdt.mylyn.ui' plug-in did not complete normally. The extension violated the API contract of the 'computeContextInformation()' operation.
+
+!ENTRY org.eclipse.cdt.ui 2 0 2017-03-29 18:04:31.129
+!MESSAGE The 'org.eclipse.cdt.ui.InclusionProposalComputer' proposal computer from the 'org.eclipse.cdt.ui' plug-in did not complete normally. The extension violated the API contract of the 'computeContextInformation()' operation.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-03-29 19:04:20.147
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-03-29 19:04:20.162
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType

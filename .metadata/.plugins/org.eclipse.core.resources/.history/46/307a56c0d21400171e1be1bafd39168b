@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <pthread.h>
+#include "Prod_cons.h"
+
+Queue store;
+
+int main( int argc, char ** argv){
+
+}

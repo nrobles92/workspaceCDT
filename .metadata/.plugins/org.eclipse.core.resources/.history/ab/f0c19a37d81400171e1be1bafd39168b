@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <pthread.h>
+#include "Prod_cons.h"
+#include "queue.h"
+
+
+void getColor(){
+
+	return;
+}
+
+int main( int argc, char ** argv){
+	int num;
+	Queue *store;
+	queueInit(store, sizeof(int));
+
+	while (printf("enter a number> "), scanf(" %s", &num)>0)
+	{
+		if (getQueueSize(store) == MAXSTORE){
+			printf("Too many products please wait");
+		}
+		else {
+			enqueue(store,&num);
+		}
+	}
+
+ exit(0);
+}
