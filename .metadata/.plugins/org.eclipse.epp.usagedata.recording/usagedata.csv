@@ -1,0 +1,76 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.ui.navigator,3.6.101.v20161006-1120,"org.eclipse.ui.navigator",1490821838316
+started,bundle,org.eclipse.ui.navigator.resources,3.5.101.v20161006-0640,"org.eclipse.ui.navigator.resources",1490821838317
+started,bundle,org.eclipse.ui.net,1.3.0.v20160426-1633,"org.eclipse.ui.net",1490821838317
+started,bundle,org.eclipse.ui.themes,1.1.300.v20161107-1827,"org.eclipse.ui.themes",1490821838317
+started,bundle,org.eclipse.ui.workbench,3.108.2.v20161025-2029,"org.eclipse.ui.workbench",1490821838319
+started,bundle,org.eclipse.ui.workbench.texteditor,3.10.1.v20160818-1626,"org.eclipse.ui.workbench.texteditor",1490821838342
+started,bundle,org.eclipse.update.configurator,3.3.400.v20160506-0750,"org.eclipse.update.configurator",1490821838375
+started,bundle,org.eclipse.userstorage,1.0.1.v20170201-1648,"org.eclipse.userstorage",1490821838388
+started,bundle,org.eclipse.userstorage.ui,1.0.1.v20170201-1648,"org.eclipse.userstorage.ui",1490821838388
+started,bundle,org.eclipse.ecf.provider.filetransfer.httpclient,4.0.0.v20110531-2218,"org.eclipse.ecf.provider.filetransfer.httpclient",1490821838389
+started,bundle,org.eclipse.epp.mpc.ui,1.1.1.I20110907-0947,"org.eclipse.epp.mpc.ui",1490821838389
+started,bundle,org.eclipse.epp.usagedata.gathering,1.3.1.R201106061540,"org.eclipse.epp.usagedata.gathering",1490821838390
+started,bundle,org.eclipse.epp.usagedata.recording,1.3.1.R201106061540,"org.eclipse.epp.usagedata.recording",1490821838390
+started,bundle,org.eclipse.equinox.event,1.2.100.v20110502,"org.eclipse.equinox.event",1490821838412
+started,bundle,org.eclipse.jdt.core,3.7.3.v20120119-1537,"org.eclipse.jdt.core",1490821838413
+started,bundle,org.eclipse.jdt.core.manipulation,1.4.0.v20110505-0800,"org.eclipse.jdt.core.manipulation",1490821838414
+started,bundle,org.eclipse.jdt.launching,3.6.1.v20110803_r371,"org.eclipse.jdt.launching",1490821838528
+started,bundle,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui",1490821838532
+started,bundle,org.eclipse.linuxtools.cdt.autotools.core,1.0.2.201202152032,"org.eclipse.linuxtools.cdt.autotools.core",1490821838533
+started,bundle,org.eclipse.team.cvs.core,3.3.400.I20110510-0800,"org.eclipse.team.cvs.core",1490821838564
+started,bundle,org.eclipse.team.cvs.ui,3.3.400.I20110510-0800,"org.eclipse.team.cvs.ui",1490821838694
+started,bundle,org.eclipse.update.core,3.2.500.v20110330,"org.eclipse.update.core",1490821838696
+started,bundle,org.eclipse.update.scheduler,3.2.300.v20100512,"org.eclipse.update.scheduler",1490821838697
+os,sysinfo,,,"linux",1490821838702
+arch,sysinfo,,,"x86_64",1490821838702
+ws,sysinfo,,,"gtk",1490821838702
+locale,sysinfo,,,"en_US",1490821838702
+processors,sysinfo,,,"2",1490821838702
+java.runtime.name,sysinfo,,,"OpenJDK Runtime Environment",1490821838702
+java.runtime.version,sysinfo,,,"1.8.0_121-8u121-b13-0ubuntu1.16.10.2-b13",1490821838702
+java.specification.name,sysinfo,,,"Java Platform API Specification",1490821838702
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1490821838702
+java.specification.version,sysinfo,,,"1.8",1490821838702
+java.vendor,sysinfo,,,"Oracle Corporation",1490821838702
+java.version,sysinfo,,,"1.8.0_121",1490821838702
+java.vm.info,sysinfo,,,"mixed mode",1490821838702
+java.vm.name,sysinfo,,,"OpenJDK 64-Bit Server VM",1490821838702
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1490821838702
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1490821838702
+java.vm.specification.version,sysinfo,,,"1.8",1490821838702
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1490821838702
+java.vm.version,sysinfo,,,"25.121-b13",1490821838702
+deactivated,workbench,org.eclipse.ui.workbench,3.108.2.v20161025-2029,"",1490822070537
+activated,workbench,org.eclipse.ui.workbench,3.108.2.v20161025-2029,"",1490822152858
+deactivated,workbench,org.eclipse.ui.workbench,3.108.2.v20161025-2029,"",1490822156737
+activated,workbench,org.eclipse.ui.workbench,3.108.2.v20161025-2029,"",1490822822020
+deactivated,workbench,org.eclipse.ui.workbench,3.108.2.v20161025-2029,"",1490822838147
+activated,workbench,org.eclipse.ui.workbench,3.108.2.v20161025-2029,"",1490822860427
+deactivated,workbench,org.eclipse.ui.workbench,3.108.2.v20161025-2029,"",1490822873619
+activated,workbench,org.eclipse.ui.workbench,3.108.2.v20161025-2029,"",1490822879038
+deactivated,workbench,org.eclipse.ui.workbench,3.108.2.v20161025-2029,"",1490822879534
+activated,workbench,org.eclipse.ui.workbench,3.108.2.v20161025-2029,"",1490823023940
+deactivated,workbench,org.eclipse.ui.workbench,3.108.2.v20161025-2029,"",1490823041109
+started,bundle,org.eclipse.linuxtools.tmf.core,0.4.0.201202152032,"org.eclipse.linuxtools.tmf.core",1490823049067
+started,bundle,org.eclipse.linuxtools.tmf.ui,0.4.0.201202152032,"org.eclipse.linuxtools.tmf.ui",1490823049075
+executed,command,org.eclipse.ltk.ui.refactoring,3.8.0.v20160518-1817,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1490823050256
+executed,command,org.eclipse.ui,3.108.1.v20160929-1045,"org.eclipse.ui.edit.delete",1490823050307
+activated,workbench,org.eclipse.ui.workbench,3.108.2.v20161025-2029,"",1490823050338
+deactivated,workbench,org.eclipse.ui.workbench,3.108.2.v20161025-2029,"",1490823053235
+executed,command,org.eclipse.ltk.ui.refactoring,3.8.0.v20160518-1817,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1490823056722
+executed,command,org.eclipse.ui,3.108.1.v20160929-1045,"org.eclipse.ui.edit.delete",1490823056726
+activated,workbench,org.eclipse.ui.workbench,3.108.2.v20161025-2029,"",1490823056792
+deactivated,workbench,org.eclipse.ui.workbench,3.108.2.v20161025-2029,"",1490823058694
+executed,command,org.eclipse.ltk.ui.refactoring,3.8.0.v20160518-1817,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1490823060941
+closed,editor,org.eclipse.cdt.ui,6.1.0.201702131830,"org.eclipse.cdt.ui.editor.CEditor",1490823061011
+started,bundle,org.eclipse.mylyn.context.ui,3.21.0.v20160701-1337,"org.eclipse.mylyn.context.ui",1490823061151
+started,bundle,org.eclipse.cdt.mylyn.ui,3.21.0.v20160701-1337,"org.eclipse.cdt.mylyn.ui",1490823061156
+executed,command,org.eclipse.ui,3.108.1.v20160929-1045,"org.eclipse.ui.edit.delete",1490823061426
+activated,workbench,org.eclipse.ui.workbench,3.108.2.v20161025-2029,"",1490823061487
+error,log,,,"Conflicting handlers for org.eclipse.linuxtools.tmf.ui.command.managecustomparsers: {org.eclipse.tracecompass.internal.tmf.ui.commands.ManageCustomParsersCommandHandler} vs {org.eclipse.linuxtools.tmf.ui.commands.ManageCustomParsersCommandHandler}",1490823063293
+deactivated,workbench,org.eclipse.ui.workbench,3.108.2.v20161025-2029,"",1490823064680
+activated,workbench,org.eclipse.ui.workbench,3.108.2.v20161025-2029,"",1490823065702
+deactivated,workbench,org.eclipse.ui.workbench,3.108.2.v20161025-2029,"",1490823073267
+activated,workbench,org.eclipse.ui.workbench,3.108.2.v20161025-2029,"",1490823088678
+deactivated,workbench,org.eclipse.ui.workbench,3.108.2.v20161025-2029,"",1490823089316

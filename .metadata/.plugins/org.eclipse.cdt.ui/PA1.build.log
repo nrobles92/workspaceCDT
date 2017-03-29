@@ -1,0 +1,15 @@
+18:11:11 **** Incremental Build of configuration Debug for project PA1 ****
+make all 
+Building file: ../Scheduler.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Scheduler.d" -MT"Scheduler.o" -o "Scheduler.o" "../Scheduler.c"
+Finished building: ../Scheduler.c
+ 
+Building target: PA1
+Invoking: GCC C Linker
+gcc  -o "PA1"  ./MinHeap.o ./Scheduler.o   -lpthread
+Finished building target: PA1
+ 
+
+18:11:12 Build Finished (took 527ms)
+

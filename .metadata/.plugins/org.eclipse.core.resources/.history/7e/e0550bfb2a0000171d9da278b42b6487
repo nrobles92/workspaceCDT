@@ -1,0 +1,15 @@
+
+#ifndef scheduler_h
+#define scheduler_h
+#include <semaphore.h>
+#include <pthread.h>
+
+extern pthread_mutex_t mutex;
+extern sem_t sem;
+
+int compareTime(char* new_event, char* intial_stamp);
+void createEvent(char * event, char * new_stamp);
+void * worker(void *arg);
+void setTimer(char * event);
+
+#endif
