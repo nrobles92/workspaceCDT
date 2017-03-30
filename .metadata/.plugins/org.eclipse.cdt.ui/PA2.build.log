@@ -1,6 +1,31 @@
-19:12:37 **** Incremental Build of configuration Debug for project PA2 ****
+21:29:00 **** Build of configuration Debug for project PA2 ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘getRed’:
+../main.c:10:6: error: expected expression before ‘)’ token
+subdir.mk:21: recipe for target 'main.o' failed
+  if ()
+      ^
+../main.c: In function ‘main’:
+../main.c:31:2: warning: this ‘while’ clause does not guard... [-Wmisleading-indentation]
+  while(i < 20);
+  ^~~~~
+../main.c:32:3: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘while’
+   if (getQueueSize(store) == MAXSTORE){
+   ^~
+../main.c:28:10: warning: variable ‘item’ set but not used [-Wunused-but-set-variable]
+  product item;
+          ^~~~
+../main.c: At top level:
+../main.c:42:7: error: expected declaration specifiers or ‘...’ before numeric constant
+  exit(0);
+       ^
+../main.c:43:1: error: expected identifier or ‘(’ before ‘}’ token
+ }
+ ^
+make: *** [main.o] Error 1
 
-19:12:38 Build Finished (took 156ms)
+21:29:01 Build Finished (took 437ms)
 

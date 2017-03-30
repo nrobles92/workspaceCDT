@@ -6,14 +6,8 @@
 #include "queue.h"
 #include "math.h"
 
-void * getRed(void * arg){
-	size_t max_distance = ceil(sqrt(num));
-	size_t i =0;
-	while (i<= max_distance){
-		if (num % i ==0){
-
-		}
-	}
+void getRed(){
+	if ()
 
 }
 void getBlue(){
@@ -34,13 +28,13 @@ int main( int argc, char ** argv){
 	product item;
 //	while (printf("enter a number> "), scanf(" %s", &num)>0)
 //	{
-	while(i < 20){
+	while(i < 20);
 		if (getQueueSize(store) == MAXSTORE){
 			printf("Too many products please wait");
 		}
 		else {
 			item.num = num;
-			enqueue(store,item);
+			enqueue(store,&num);
 		}
 		i++;
 	}

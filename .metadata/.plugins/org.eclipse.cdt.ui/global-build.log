@@ -1,67 +1,28 @@
-19:03:02 **** Incremental Build of configuration Debug for project PA2 ****
+21:29:00 **** Build of configuration Debug for project PA2 ****
 make all 
 Building file: ../main.c
 Invoking: GCC C Compiler
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function ‘getRed’:
+../main.c:10:6: error: expected expression before ‘)’ token
+subdir.mk:21: recipe for target 'main.o' failed
+  if ()
+      ^
 ../main.c: In function ‘main’:
-../main.c:18:46: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int *’ [-Wformat=]
-  while (printf("enter a number> "), scanf(" %s", &num)>0)
-                                              ^
-Finished building: ../main.c
- 
-Building file: ../queue.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"queue.d" -MT"queue.o" -o "queue.o" "../queue.c"
-Finished building: ../queue.c
- 
-Building target: PA2
-Invoking: GCC C Linker
-gcc  -o "PA2"  ./main.o ./queue.o   
-Finished building target: PA2
- 
-19:04:21 **** Incremental Build of configuration Debug for project PA2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:04:29 **** Incremental Build of configuration Debug for project PA2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:05:11 **** Incremental Build of configuration Debug for project PA2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:05:28 **** Incremental Build of configuration Debug for project PA2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:07:51 **** Incremental Build of configuration Debug for project PA2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:08:29 **** Incremental Build of configuration Debug for project PA2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:08:39 **** Incremental Build of configuration Debug for project PA2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:11:34 **** Incremental Build of configuration Debug for project PA2 ****
-make all 
-make: Nothing to be done for 'all'.
-19:12:21 **** Incremental Build of configuration Debug for project PA2 ****
-make all 
-Building file: ../main.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
-../main.c: In function ‘main’:
-../main.c:19:46: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int *’ [-Wformat=]
-  while (printf("enter a number> "), scanf(" %s", &num)>0)
-                                              ^
-../main.c:17:2: warning: ‘store’ is used uninitialized in this function [-Wuninitialized]
-  queueInit(store, sizeof(int));
-  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Finished building: ../main.c
- 
-Building target: PA2
-Invoking: GCC C Linker
-gcc  -o "PA2"  ./main.o ./queue.o   
-Finished building target: PA2
- 
-19:12:37 **** Incremental Build of configuration Debug for project PA2 ****
-make all 
-make: Nothing to be done for 'all'.
+../main.c:31:2: warning: this ‘while’ clause does not guard... [-Wmisleading-indentation]
+  while(i < 20);
+  ^~~~~
+../main.c:32:3: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the ‘while’
+   if (getQueueSize(store) == MAXSTORE){
+   ^~
+../main.c:28:10: warning: variable ‘item’ set but not used [-Wunused-but-set-variable]
+  product item;
+          ^~~~
+../main.c: At top level:
+../main.c:42:7: error: expected declaration specifiers or ‘...’ before numeric constant
+  exit(0);
+       ^
+../main.c:43:1: error: expected identifier or ‘(’ before ‘}’ token
+ }
+ ^
+make: *** [main.o] Error 1
